@@ -1,6 +1,6 @@
 package com.teste;
 
-public class teste {
+public class testeEnumMain {
 	public static void main(String [] args) {
 		
 		for (tipos tipo : tipos.values()) {

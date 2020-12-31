@@ -19,4 +19,35 @@ public class CreditCardStrategy implements PaymentStrategy {
 		System.out.println(amount + " payed using Credit Card");
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public long getCreditCardNumber() {
+		return creditCardNumber;
+	}
+
+	public void setCreditCardNumber(long creditCardNumber) {
+		this.creditCardNumber = creditCardNumber;
+	}
+
+	public int getSecurityCode() {
+		return securityCode;
+	}
+
+	public void setSecurityCode(int securityCode) {
+		this.securityCode = securityCode;
+	}
+
+	public String getDateOfExpiry() {
+		return dateOfExpiry;
+	}
+
+	public void setDateOfExpiry(String dateOfExpiry) {
+		this.dateOfExpiry = dateOfExpiry;
+	}
 }
